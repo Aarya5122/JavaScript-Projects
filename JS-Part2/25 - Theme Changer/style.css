@@ -1,0 +1,65 @@
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-family: monospace;
+}
+
+.avatar-container{
+    width: 150%;
+}
+
+.avatar{
+    margin-left: 130px;
+}
+
+.description{
+    width:100%;
+    margin-right: 100px;
+
+}
+
+.description p{
+    margin: 20px 0px;
+}
+
+.description button{
+    margin: 20px 0px;
+}
+
+.dailouge{
+    font-size: 50px;
+    font-family: fantasy;
+}
+
+.intro{
+    font-size: 36px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.desc{
+    font-size: 21px;
+    font-family: cursive;
+
+}
+
+
+button{
+    border: 2px solid #3f1baa;
+    background: #3f1baa;
+    padding: 8px 0px;
+    font-size: 18px;
+    font-weight: 700;
+    outline: none;
+    color: #efefef;
+    border-radius: 10px;    
+}

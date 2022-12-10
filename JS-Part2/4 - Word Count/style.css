@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background: #232323;
+    color: #f3f3f3;
+}
+
+h1{
+    font-size: 50px;
+    font-family: cursive;
+}
+
+.input-container{
+    margin: 30px 0px;
+}
+
+input{
+    width: 300px;
+    height: 32px;
+    font-size: 20px;
+    padding: 2px 4px;
+
+}
+
+#output, #word{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+#word{
+    padding-top: 40px;
+}
